@@ -127,6 +127,7 @@ if [[ "$ACTION" == "uninstall" ]]; then
   rm -f "$TOGGLE" "$LOCK_GUARD" "$TRUST_HELPER" "$LIST_HELPER" "$UNTRUST_HELPER" || true
   rm -f "$LOG_LOCK" "$LOG_TOGGLE" || true
   # keep $CONF_TRUST (user data)
+    rm -f "$CONF_TRUST" || true
 
   systemctl daemon-reload || true
   echo "Uninstalled. You may edit/remove $GDM_CONF manually if desired."
