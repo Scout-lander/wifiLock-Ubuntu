@@ -229,19 +229,9 @@ A: No. It writes standard files and systemd units. Re-running the installer upda
 
 ---
 
-## 🧾 One-liner recap
-
-Interactive:
-```bash
-curl -fsSL https://raw.githubusercontent.com/<you>/<repo>/main/install.sh | sudo bash
-```
-
-Non-interactive:
-```bash
-curl -fsSL https://raw.githubusercontent.com/<you>/<repo>/main/install.sh \| sudo bash -s -- --install --user cam --ssids "HomeWiFi,OfficeWiFi" --debounce 7
-```
+## 🧾 Uninstall
 
 Uninstall:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<you>/<repo>/main/install.sh | sudo bash -s -- --uninstall
+curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh | sudo bash -s -- --uninstall
 ```
