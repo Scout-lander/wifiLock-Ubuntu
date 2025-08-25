@@ -62,7 +62,8 @@ Network changes (connect/disconnect)
 
 ### Interactive (recommended)
 ```bash
-curl -fsSL curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh | sudo bash
+curl -fsSL -o install.sh https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh
+sudo bash install.sh
 ```
 
 The wizard will ask:
@@ -74,7 +75,7 @@ The wizard will ask:
 ### Non-interactive (advanced)
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh \
-| sudo bash -s -- --install --user cam --ssids "HomeWiFi,OfficeWiFi" --debounce 7
+| sudo bash -s -- --install --user cam --ssids "camsea-5ghz,camsea" --debounce 7
 ```
 
 > You can re-run the installer any time to change settings.
