@@ -233,5 +233,5 @@ A: No. It writes standard files and systemd units. Re-running the installer upda
 
 Uninstall:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh | sudo bash -s -- --uninstall
+curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh | sudo bash -s -- --uninstall --purge
 ```
