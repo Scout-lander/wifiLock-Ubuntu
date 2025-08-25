@@ -62,7 +62,7 @@ Network changes (connect/disconnect)
 
 ### Interactive (recommended)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<you>/<repo>/main/install.sh | sudo bash
+curl -fsSL curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh | sudo bash
 ```
 
 The wizard will ask:
@@ -73,7 +73,7 @@ The wizard will ask:
 
 ### Non-interactive (advanced)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<you>/<repo>/main/install.sh \
+curl -fsSL https://raw.githubusercontent.com/Scout-lander/wifiLock-Ubuntu/main/install.sh \
 | sudo bash -s -- --install --user cam --ssids "HomeWiFi,OfficeWiFi" --debounce 7
 ```
 
